@@ -1,0 +1,30 @@
+.square {
+  margin: 5px;
+  width: 100px;
+  height: 100px;
+  display: flex;
+  flex-direction: column;
+  border:1px solid;
+  justify-content: center;
+  align-items: center;
+  font-size: 50px;
+}
+
+.board {
+  width: 310px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  margin-right: 50px;
+}
+.history{
+  display: flex;
+  flex-direction: column;
+  margin-top: 5px;
+}
+.step{
+  margin-bottom: 10px;
+
+}
+.container{
+  display: flex;
+}
